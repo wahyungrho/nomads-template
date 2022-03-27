@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.min.css">
+
+    <!-- Font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+
+    <!-- Main CSS from SCSS -->
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+
+<body>
+    <!-- START NAVBAR -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <!-- LOGO NOMADS IMAGE -->
+            <a href="#" class="navbar-brand">
+                <img src="frontend/images/logo.png" alt="Logo NOMADS">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navb">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- MENU NAVBAR -->
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Paket Travel</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                            Services
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Link</a>
+                            <a href="#" class="dropdown-item">Link</a>
+                            <a href="#" class="dropdown-item">Link</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Testimonial</a>
+                    </li>
+                </ul>
+                <!-- Mobile Button Version -->
+                <form action="" class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login my-2 my-sm-0">
+                        Masuk
+                    </button>
+                </form>
+
+                <!-- Desktop Button Version -->
+                <form action="" class="form-inline my-2 my-lg-0 d-none d-md-block">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                        Masuk
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <!-- END NAVBAR -->
+
+    <!-- START HEADER -->
+    <header class="text-center">
+        <h1>
+            Explore The Beautiful World
+            <br />
+            As Easy One Click
+        </h1>
+        <p class="mt-3">
+            You will se beautiful
+            <br />
+            moment you never see before
+        </p>
+        <a href="#" class="btn btn-get-started px-4 mt-4">
+            Get Started
+        </a>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- START MAIN -->
+
+    <!-- START STATISTICS -->
+    <section class="section-stats row justify-content-center" id="stats">
+        <div class="col col-md-2 stats-detail">
+            <h2>20K</h2>
+            <p>Members</p>
+        </div>
+        <div class="col col-md-2 stats-detail">
+            <h2>12</h2>
+            <p>Countries</p>
+        </div>
+        <div class="col col-md-2 stats-detail">
+            <h2>3K</h2>
+            <p>Hotels</p>
+        </div>
+        <div class="col col-md-2 stats-detail">
+            <h2>72</h2>
+            <p>Partners</p>
+        </div>
+    </section>
+    <!-- END STATISTICS -->
+
+    <!-- START POPULAR -->
+    <section class="section-popular" id="popular">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center section-popular-heading">
+                    <h2>Wisata Popular</h2>
+                    <p>
+                        Something that you never try
+                        <br />
+                        before in this World
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END POPULAR -->
+
+    <!-- START POPULAR CONTENT -->
+    <section class="section-popular-content" id="popularContent">
+        <div class="container">
+            <div class="section-popular-travel row justify-content-center">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card-travel text-center d-flex flex-column"
+                        style="background-image: url('frontend/images/travel-1@2x.jpg');">
+                        <div class="travel-country">
+                            INDONESIA
+                        </div>
+                        <div class="travel-location">DERATAN, BALI</div>
+                        <div class="travel-button mt-auto">
+                            <a href="#" class="btn btn-travel-details px-4">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card-travel text-center d-flex flex-column"
+                        style="background-image: url('frontend/images/travel-2@2x.jpg');">
+                        <div class="travel-country">
+                            INDONESIA
+                        </div>
+                        <div class="travel-location">BROMO, MALANG</div>
+                        <div class="travel-button mt-auto">
+                            <a href="#" class="btn btn-travel-details px-4">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card-travel text-center d-flex flex-column"
+                        style="background-image: url('frontend/images/travel-3@2x.jpg');">
+                        <div class="travel-country">
+                            INDONESIA
+                        </div>
+                        <div class="travel-location">NUSA PENIDA</div>
+                        <div class="travel-button mt-auto">
+                            <a href="#" class="btn btn-travel-details px-4">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card-travel text-center d-flex flex-column"
+                        style="background-image: url('frontend/images/travel-4@2x.jpg');">
+                        <div class="travel-country">
+                            MIDDLE EAST
+                        </div>
+                        <div class="travel-location">DUBAI</div>
+                        <div class="travel-button mt-auto">
+                            <a href="#" class="btn btn-travel-details px-4">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END POPULAR CONTENT -->
+
+    <!-- instal jquery manual di website jquery karena boostrap yg didownload tidak include jquery,
+    jquery harus diatas bootstrap karena supaya diload terlebih dahulu -->
+    <script src="frontend/libraries/jquery/jquery.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Retina.js berfungsi untuk mengubah default image@1x menjadi image@2x sehingga image menjadi tidak blur -->
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+</body>
+
+</html>
