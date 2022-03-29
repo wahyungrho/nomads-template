@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="frontend/libraries/bootstrap/css/bootstrap.min.css"
+    />
+
+    <!-- Font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS from SCSS -->
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+  </head>
+
+  <body>
+    <!-- START NAVBAR -->
+    <div class="container">
+      <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+        <!-- LOGO NOMADS IMAGE -->
+        <a href="#" class="navbar-brand">
+          <img src="frontend/images/logo.png" alt="Logo NOMADS" />
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navb"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- MENU NAVBAR -->
+        <div class="collapse navbar-collapse" id="navb">
+          <ul class="navbar-nav ml-auto mr-3">
+            <li class="nav-item mx-md-2">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a href="#" class="nav-link">Paket Travel</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="navbardrop"
+                data-toggle="dropdown"
+              >
+                Services
+              </a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Link</a>
+                <a href="#" class="dropdown-item">Link</a>
+                <a href="#" class="dropdown-item">Link</a>
+              </div>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a href="#" class="nav-link">Testimonial</a>
+            </li>
+          </ul>
+          <!-- Mobile Button Version -->
+          <form action="" class="form-inline d-sm-block d-md-none">
+            <button class="btn btn-login my-2 my-sm-0">Masuk</button>
+          </form>
+
+          <!-- Desktop Button Version -->
+          <form action="" class="form-inline my-2 my-lg-0 d-none d-md-block">
+            <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+              Masuk
+            </button>
+          </form>
+        </div>
+      </nav>
+    </div>
+    <!-- END NAVBAR -->
+
+    <!-- START MAIN -->
+    <main>
+      <section class="section-details-header"></section>
+
+      <!-- START DETAIL CONTENT -->
+      <section class="section-details-content">
+        <div class="container">
+          <div class="row">
+            <div class="col p-0">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="#">Paket Travel</a>
+                  </li>
+                  <li class="breadcrumb-item active">
+                    <a href="#">Details</a>
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 pl-lg-0">
+              <div class="card card-details">
+                <h1>Nusa Penida</h1>
+                <p>Republif of Indonesia Raya</p>
+                <div class="gallery"></div>
+                <h2>Tentang Wisata</h2>
+                <p>
+                  Nusa Penida is an island southeast of Indonesia's island Bali
+                  and a district of Klungkung Regency that includes the
+                  neighbouring small island of Nusa Lembongan. The Badung Strait
+                  separates the island and Bali. The interior of Nusa Penida is
+                  hilly with a maximum altitude of 524 meters. It is drier than
+                  the nearby island of Bali.
+                </p>
+                <p>
+                  Bali and a district og Klungkung Regency that includes the
+                  neighbouring small island of Nusa Lembongan. The Badung Strait
+                  separates the island and Bali. The interior of Nusa Penida is
+                  hilly with a maximum altitude of 524 meters. It is drier than
+                  the nearby island of Bali.
+                </p>
+
+                <div class="features row">
+                  <div class="col-md-4">
+                    <img
+                      src="frontend/images/ic_event.png"
+                      alt=""
+                      class="features-image"
+                    />
+                    <div class="description">
+                      <h3>Featured Event</h3>
+                      <p>Tari Kecak</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 border-left">
+                    <img
+                      src="frontend/images/ic_bahasa.png"
+                      alt=""
+                      class="features-image"
+                    />
+                    <div class="description">
+                      <h3>Bahasa</h3>
+                      <p>Bahasa Indonesia</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 border-left">
+                    <img
+                      src="frontend/images/ic_foods.png"
+                      alt=""
+                      class="features-image"
+                    />
+                    <div class="description">
+                      <h3>Food</h3>
+                      <p>Local Foods</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END DETAIL CONTENT -->
+    </main>
+    <!-- END MAIN -->
+
+    <footer class="section-footer mt-5 mb-4 border-top">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-lg-3">
+                <h5>FEATURES</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Reviews</a></li>
+                  <li><a href="#">Community</a></li>
+                  <li><a href="#">Social Media Kit</a></li>
+                  <li><a href="#">Affiliate</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>ACCOUNT</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Refund</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">Reward</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>COMPANY</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">Media</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>GET CONNECTED</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Jakarta Selatan</a></li>
+                  <li><a href="#">Indonesia</a></li>
+                  <li><a href="#">0821-1234-5678</a></li>
+                  <li><a href="#">support@nomads.id</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div
+          class="row border-top justify-content-center align-items-center pt-4"
+        >
+          <div class="col-auto text-gray-500 font-weight-light">
+            2020 Copyright Nomads • All rights reserved • Made in Jakarta
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- instal jquery manual di website jquery karena boostrap yg didownload tidak include jquery,
+    jquery harus diatas bootstrap karena supaya diload terlebih dahulu -->
+    <script src="frontend/libraries/jquery/jquery.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Retina.js berfungsi untuk mengubah default image@1x menjadi image@2x sehingga image menjadi tidak blur -->
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+  </body>
+</html>
