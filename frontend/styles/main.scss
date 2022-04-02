@@ -371,4 +371,35 @@ header {
 }
 // END GALLERY
 
+// START MEMBERS CONTENT
+.card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.members {
+  .member-image {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.join-container {
+  margin-top: 16px;
+
+  .btn-join-now {
+    background-color: #ff9e53;
+    color: #fff;
+    border-radius: 0;
+
+    &:hover {
+      background-color: #ffaa69;
+      color: #fff;
+    }
+  }
+
+}
+// END MEMBERS CONTENT
+
 // END DETAIL PAGE
