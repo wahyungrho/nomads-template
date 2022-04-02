@@ -346,6 +346,22 @@ header {
       font-size: 18px;
       color: #b1b1b1;
     }
+
+    .text-blue {
+      color: #071c4d;
+      font-weight: 700;
+    }
+
+    .text-orange {
+      color: #ff9e53;
+      font-weight: 700;
+    }
+  }
+
+  .payment-instructions {
+    font-weight: 300;
+    color: #b1b1b1;
+    font-size: 14px;
   }
 
   .features {
@@ -373,6 +389,70 @@ header {
     height: 45px;
     float: left;
   }
+
+  .member {
+    .disclaimer {
+      font-weight: 300;
+      color: #b1b1b1;
+      font-size: 14px;
+    }
+
+    h3 {
+      font-weight: 300;
+      font-size: 14px;
+      color: #071c4d;
+    }
+
+    .gj-datepicker {
+      .datepicker {
+        border-right: 0;
+      }
+
+      .input-group-append {
+        .btn {
+          padding-right: 30px;
+        }
+      }
+    }
+
+    .btn-add-now {
+      background-color: #071c4d;
+      color: #fff;
+
+      &:hover {
+        background-color: #1b3b86;
+        color: #fff;
+      }
+    }
+  }
+
+  .bank {
+    .bank-item {
+      h3 {
+        font-size: 16px;
+        color: #071c4d;
+        margin-bottom: 0;
+      }
+
+      p {
+        margin-bottom: 0;
+      }
+
+      .description {
+        p {
+          font-weight: normal;
+          font-size: 16px;
+          color: #071c4d;
+        }
+      }
+    }
+
+    .bank-image {
+      width: 45px;
+      height: 45px;
+      float: left;
+    }
+  }
 }
 
 // END DETAIL CONTENT
@@ -392,7 +472,6 @@ header {
       border: 4px solid #1abc9c;
       box-shadow: none;
     }
-
   }
 }
 
@@ -423,49 +502,37 @@ header {
       color: #fff;
     }
   }
-
 }
 
 // END MEMBERS CONTENT
 
 // END DETAIL PAGE
 
+// START SUCCESS PAGE
+.section-success {
+  height: 90vh;
 
-// START CHECKOUT PAGE
-.member {
-  .disclaimer {
-    font-weight: 300;
-    color: #b1b1b1;
-    font-size: 14px;
-  }
-
-  h3 {
+  h1 {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 26px;
     color: #071c4d;
   }
 
-  .gj-datepicker {
-    .datepicker {
-      border-right: 0;
-    }
-
-    .input-group-append {
-      .btn {
-        padding-right: 30px;
-      }
-    }
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
   }
 
-  .btn-add-now {
+  .btn-homepage {
+    border-radius: 4px;
     background-color: #071c4d;
     color: #fff;
 
     &:hover {
-      background-color: #1b3b86;
+      background-color: #2a488e;
       color: #fff;
     }
   }
 }
-
-// END CHECKOUT PAGE
+// END SUCCESS PAGE

@@ -294,6 +294,22 @@ header .btn-get-started:hover {
   color: #b1b1b1;
 }
 
+.card-details .trip-informations .text-blue {
+  color: #071c4d;
+  font-weight: 700;
+}
+
+.card-details .trip-informations .text-orange {
+  color: #ff9e53;
+  font-weight: 700;
+}
+
+.card-details .payment-instructions {
+  font-weight: 300;
+  color: #b1b1b1;
+  font-size: 14px;
+}
+
 .card-details .features {
   margin-top: 20px;
 }
@@ -315,6 +331,58 @@ header .btn-get-started:hover {
 }
 
 .card-details .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.card-details .member .disclaimer {
+  font-weight: 300;
+  color: #b1b1b1;
+  font-size: 14px;
+}
+
+.card-details .member h3 {
+  font-weight: 300;
+  font-size: 14px;
+  color: #071c4d;
+}
+
+.card-details .member .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.card-details .member .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.card-details .member .btn-add-now {
+  background-color: #071c4d;
+  color: #fff;
+}
+
+.card-details .member .btn-add-now:hover {
+  background-color: #1b3b86;
+  color: #fff;
+}
+
+.card-details .bank .bank-item h3 {
+  font-size: 16px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+
+.card-details .bank .bank-item p {
+  margin-bottom: 0;
+}
+
+.card-details .bank .bank-item .description p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #071c4d;
+}
+
+.card-details .bank .bank-image {
   width: 45px;
   height: 45px;
   float: left;
@@ -359,33 +427,30 @@ header .btn-get-started:hover {
   color: #fff;
 }
 
-.member .disclaimer {
-  font-weight: 300;
-  color: #b1b1b1;
-  font-size: 14px;
+.section-success {
+  height: 90vh;
 }
 
-.member h3 {
+.section-success h1 {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 26px;
   color: #071c4d;
 }
 
-.member .gj-datepicker .datepicker {
-  border-right: 0;
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
 }
 
-.member .gj-datepicker .input-group-append .btn {
-  padding-right: 30px;
-}
-
-.member .btn-add-now {
+.section-success .btn-homepage {
+  border-radius: 4px;
   background-color: #071c4d;
   color: #fff;
 }
 
-.member .btn-add-now:hover {
-  background-color: #1b3b86;
+.section-success .btn-homepage:hover {
+  background-color: #2a488e;
   color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
