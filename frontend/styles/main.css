@@ -282,6 +282,10 @@ header .btn-get-started:hover {
   color: #b1b1b1;
 }
 
+.card-details .attendee {
+  margin-top: 16px;
+}
+
 .card-details .trip-informations th {
   font-weight: 300;
   font-size: 18px;
